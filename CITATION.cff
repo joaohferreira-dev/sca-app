@@ -12,13 +12,13 @@ abstract: >-
   (UE/UV/UR), opções exploratórias e pacote de compromisso.
 type: software
 version: 1.0.0
-date-released: 2026-06-16
+date-released: 2026-06-17
 authors:
   - given-names: "João Henrique"
-    family-names: "A COMPLETAR (seu sobrenome)"
+    family-names: "Ferreira"   # CONFIRME: nomes brasileiros costumam ter 2 sobrenomes
     email: "joaohenriiquee1@gmail.com"
     # orcid: "https://orcid.org/0000-0000-0000-0000"   # opcional, recomendado
-    # affiliation: "A COMPLETAR (instituição / programa de mestrado)"
+    affiliation: "Universidade Federal de Mato Grosso do Sul (UFMS)"   # CONFIRME/ajuste
 keywords:
   - "Strategic Choice Approach"
   - "Problem Structuring Methods"
@@ -26,8 +26,7 @@ keywords:
   - "apoio à decisão"
   - "decisão sob incerteza"
   - "pacote de compromisso"
-# Preencha após arquivar no Zenodo/OSF/figshare (gera DOI e link permanente):
-# doi: "10.5281/zenodo.XXXXXXX"
-# url: "https://doi.org/10.5281/zenodo.XXXXXXX"
-# repository-code: "https://github.com/USUARIO/sca-app"
+doi: "10.5281/zenodo.20736997"
+url: "https://doi.org/10.5281/zenodo.20736997"
+repository-code: "https://github.com/joaohferreira-dev/sca-app"
 # license: MIT   # escolha uma licença se for publicar o código-fonte
