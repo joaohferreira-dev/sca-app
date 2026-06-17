@@ -72,10 +72,10 @@ Esta aplicação é uma contribuição metodológica de autoria própria e pode 
 
 **ABNT (NBR 6023):**
 
-> FERREIRA, João Henrique. **SCA App: aplicação web para estruturação de decisões pelo Strategic Choice Approach**. Versão 1.0.0. [*S. l.*], 2026. 1 software. Disponível em: https://doi.org/10.5281/zenodo.20736997. Acesso em: 17 jun. 2026.
+> SILVA, João Henrique Ferreira Barbosa da. **SCA App: aplicação web para estruturação de decisões pelo Strategic Choice Approach**. Versão 1.0.0. [*S. l.*], 2026. 1 software. Disponível em: https://doi.org/10.5281/zenodo.20736997. Acesso em: 17 jun. 2026.
 
 **APA 7:**
 
-> Ferreira, J. H. (2026). *SCA App: A web application for structuring decisions with the Strategic Choice Approach* (Versão 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.20736997
+> Silva, J. H. F. B. da (2026). *SCA App: A web application for structuring decisions with the Strategic Choice Approach* (Versão 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.20736997
 
 No corpo do artigo (seção de Método), descreva-a como uma aplicação desenvolvida pelos autores para operacionalizar o SCA, referenciando Friend & Hickling (*Planning Under Pressure*) como base do método que ela implementa.
