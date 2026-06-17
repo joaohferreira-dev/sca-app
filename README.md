@@ -1,6 +1,6 @@
 # Aplicação Web — Strategic Choice Approach (SCA)
 
-Aplicação interativa em português para apoiar grupos, pesquisadores e decisores na aplicação completa do método SCA (Friend & Hickling — *Planning Under Pressure* / AIDA), da formulação do problema decisório até o pacote de compromisso. Fonte metodológica: **Guia SCA.docx**.
+Aplicação interativa em português para apoiar grupos, pesquisadores e decisores na aplicação completa do método SCA (Friend & Hickling — *Planning Under Pressure* / AIDA), da formulação do problema decisório até o pacote de compromisso. Fonte metodológica:FRIEND, John; HICKLING, Allen. Planning under pressure. Routledge, 2012.
 
 A aplicação respeita a lógica do SCA como abordagem **incremental, participativa e interativa** para estruturar decisões interdependentes sob incerteza — não como otimização matemática nem ranking simples de alternativas.
 
