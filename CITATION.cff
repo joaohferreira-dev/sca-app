@@ -1,0 +1,33 @@
+# Arquivo de citação padrão (Citation File Format).
+# GitHub e Zenodo leem este arquivo automaticamente para gerar a citação.
+# >>> COMPLETE os campos marcados com "A COMPLETAR" antes de publicar. <<<
+cff-version: 1.2.0
+message: "Se você usar esta aplicação, por favor cite-a conforme os metadados abaixo."
+title: "SCA App: aplicação web para estruturação de decisões pelo Strategic Choice Approach"
+abstract: >-
+  Aplicação web interativa, em português, que operacializa o método Strategic
+  Choice Approach (Friend & Hickling — Planning Under Pressure / AIDA), da
+  formulação do problema decisório (áreas de decisão, conexões e option bars)
+  à geração de esquemas viáveis, comparação de vantagens, áreas de incerteza
+  (UE/UV/UR), opções exploratórias e pacote de compromisso.
+type: software
+version: 1.0.0
+date-released: 2026-06-16
+authors:
+  - given-names: "João Henrique"
+    family-names: "A COMPLETAR (seu sobrenome)"
+    email: "joaohenriiquee1@gmail.com"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # opcional, recomendado
+    # affiliation: "A COMPLETAR (instituição / programa de mestrado)"
+keywords:
+  - "Strategic Choice Approach"
+  - "Problem Structuring Methods"
+  - "estruturação de problemas"
+  - "apoio à decisão"
+  - "decisão sob incerteza"
+  - "pacote de compromisso"
+# Preencha após arquivar no Zenodo/OSF/figshare (gera DOI e link permanente):
+# doi: "10.5281/zenodo.XXXXXXX"
+# url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+# repository-code: "https://github.com/USUARIO/sca-app"
+# license: MIT   # escolha uma licença se for publicar o código-fonte

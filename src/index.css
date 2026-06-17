@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fundo geral: folha de papel sem pauta */
+body {
+  background-color: #f1ecdf;
+}
+
+/* Escrita manuscrita dos diagramas e tabelas (fallbacks legíveis offline) */
+.hand,
+.hand text {
+  font-family: 'Patrick Hand', 'Segoe Print', 'Comic Sans MS', cursive;
+}
+
+/* Títulos com caligrafia mais solta */
+.hand2 {
+  font-family: 'Caveat', 'Patrick Hand', 'Segoe Print', cursive;
+}
+
+/* ============================================================
+   Relatório — variante CIENTÍFICA (.report-sci)
+   Times New Roman, corpo 10 pt, fundo branco, tabelas e figuras
+   no espírito de um artigo de periódico. Escopo restrito ao
+   documento do relatório: a aplicação interativa não é afetada.
+   ============================================================ */
+
+/* fonte serifada em tudo, inclusive textos dentro dos SVGs */
+.report-sci,
+.report-sci *,
+.report-sci .hand,
+.report-sci .hand2,
+.report-sci .hand text,
+.report-sci text {
+  font-family: 'Times New Roman', 'Liberation Serif', Times, serif !important;
+}
+
+/* corpo do texto: 10 pt, preto, justificado */
+.report-sci {
+  font-size: 10pt;
+  line-height: 1.45;
+  color: #000;
+  background: #fff !important;
+}
+.report-sci p,
+.report-sci li,
+.report-sci span,
+.report-sci div,
+.report-sci em,
+.report-sci u {
+  font-size: 10pt !important;
+  line-height: 1.45 !important;
+  color: #000 !important;
+}
+.report-sci p {
+  text-align: justify;
+}
+
+/* títulos: hierarquia sóbria de artigo */
+.report-sci h1 {
+  font-size: 18pt !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  line-height: 1.2 !important;
+}
+.report-sci h2 {
+  font-size: 12pt !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  margin-top: 1.4em !important;
+  margin-bottom: 0.3em !important;
+}
+.report-sci section {
+  margin-top: 1.3em !important;
+}
+/* legenda/“lead” de cada seção → texto introdutório em itálico */
+.report-sci section > p:first-of-type {
+  font-style: italic;
+  color: #222 !important;
+}
+
+/* não forçar caixa-baixa estilizada (perguntas/descrições) */
+.report-sci .lowercase {
+  text-transform: none !important;
+}
+
+/* fundos de papel → branco (cartões, tabelas manuscritas, SVGs) */
+.report-sci [class*="bg-["] {
+  background-color: #fff !important;
+}
+
+/* filetes/réguas das tabelas e divisórias em cinza-escuro neutro */
+.report-sci [class*="border-stone-"],
+.report-sci [class*="border-slate-"],
+.report-sci [class*="border-amber-"] {
+  border-color: #444 !important;
+}
+
+/* texto dentro das figuras (SVG) mantém o tamanho próprio do desenho,
+   apenas a família vira serifada — regra acima já cobre `text` sem
+   alterar font-size (presentation attribute permanece) */
+
+/* ---- Relatório em PDF (impressão) ---- */
+@media print {
+  /* margens de artigo quando exportado no estilo científico */
+  .report-sci :is(h1, h2) {
+    break-after: avoid;
+  }
+  @page {
+    size: A4;
+    margin: 13mm;
+  }
+  .page-break {
+    break-before: page;
+  }
+  .avoid-break {
+    break-inside: avoid;
+  }
+  /* árvore de esquemas ampliada: ocupa a página inteira, sem limite de altura */
+  .print-tree svg {
+    max-height: none !important;
+  }
+}
